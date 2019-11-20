@@ -1,1 +1,10 @@
 theme: jekyll-theme-slate
+
+title:
+    Beste bachelorproef ooit
+
+description:
+  "Mijn bachelorproef: de website"
+
+show_downloads:
+  "true"
