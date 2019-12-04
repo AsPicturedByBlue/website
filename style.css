@@ -1,6 +1,49 @@
 body{
     background-color: lightgray;
 }
+header{
+    text-align: center;
+   background-color: lightsalmon;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    padding: 5%;
+   
+}
+main{
+    text-align: center;
+}
+h2{
+    font-family:  'Franklin Gothic Medium', serif;
+    font-size: 200%;
+    padding: 2%;
+    
+}
 nav ul{
    list-style-type: none; 
+   padding-bottom: 2%;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+li  {
+    display: inline;
+    
+}
+
+li a {
+    background-color: lightgreen;
+    padding: 2%;
+}
+
+footer{
+    background-color: lightsalmon;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 5%;
 }
