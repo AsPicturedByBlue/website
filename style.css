@@ -1,9 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: lightgray;
 }
 header{
     text-align: center;
-   background-color: lightsalmon;
+   background-color: #072F4F;
 }
 
 h1{
@@ -14,24 +17,43 @@ h1{
 }
 main{
     text-align: center;
+    
 }
 main p {
     margin-left: 20%;
     margin-right: 20%;
 }
+div {
+    padding-bottom: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
 h2{
     font-family:  'Franklin Gothic Medium', serif;
     font-size: 200%;
     padding: 2%;
+    color: #813772;
+    
+}
+h3{
+    font-family:  'Franklin Gothic Medium', serif;
+    font-size: 175%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    color: #B92601;
+}
+nav {
+    background-color: black;
     
 }
 nav ul{
    list-style-type: none; 
-   padding-bottom: 2%;
+  /* padding-bottom: 2%; */
 }
 .active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: lightgray;
+    color: black;
   }
 li  {
     display: inline;
@@ -39,15 +61,28 @@ li  {
 }
 
 li a {
-    background-color: lightgreen;
-    padding: 2%;
+    /* background-color: black; */
+    color: white;
+   /* padding: 2%; */
+    margin: 5%;
+}
+
+#top-div{
+    float: right;
+    margin: 2%;
 }
 
 footer{
-    background-color: lightsalmon;
+    background-color: #000000;
     position:fixed;
     bottom:0;
     left:0;
     right:0;
     height: 5%;
+}
+
+nav li a img{
+    width: 10%;
+    height: 10%;
+    opacity: 20%;
 }
