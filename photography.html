@@ -82,6 +82,8 @@
 
   <div class="section">
     <div class="container">
+      
+       
       <h2 class="mb-4 section-title">Still life</h2>
       <div class="row">
         
@@ -163,8 +165,32 @@
         </div>
 
       </div>
+
+      <form >
+        <input class="back" type="button" value="Back to Portfolio" onclick="history.back()">
+        <style type="text/css">
+         .back{
+          font: bold 18px Corbel, clean, sans-serif !important;
+	        text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25);
+	        border-radius: 5px;
+	        display: inline-block;
+	        color: white;
+	        padding: 5px 10px 5px;
+	        white-space: nowrap;
+	        text-decoration: none;
+	        cursor: pointer;
+	        background:#121433 url(button_overlay.png) repeat-x scroll 0 0;
+	        border-style: none;
+	        text-align: center;
+	        overflow: visible;
+         }
+        </style>
+       </form>
     </div>
+    
   </div>
+
+  
 
 
 
@@ -195,6 +221,8 @@
   </footer>
   <!-- END footer -->
 
+ 
+
   <!-- loader -->
   <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
@@ -211,7 +239,8 @@
   <script src="js/jquery.stellar.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
-
+  
+ 
 </body>
 
 </html>
